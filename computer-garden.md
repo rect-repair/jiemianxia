@@ -45,7 +45,7 @@
 - digital desire path 电子愿望小径
 
 ## command line 入门 + 玩文件夹
-- 下载 [garden](/garden/) 文件夹
+- 下载 [computer-garden](https://github.com/rect-repair/computer-garden) 文件夹
 - `whoami` `uname`
 - `pwd`- (printing working directory) you are here! 
 - `ls` - list all the files and paths
