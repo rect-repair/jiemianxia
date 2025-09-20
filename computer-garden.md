@@ -38,14 +38,14 @@
 
 欢迎对终端和编程好奇的初学者参加。请自备电脑！
 
-> MacOS 和 linix 系统皆可
-> Windows 系统本身不支持 Bash，需要安装 Windows Subsystem for Linux (WSL) 或者 Git bash, 建议提前跟着[这个教程](https://gist.github.com/solon/4e254be6e0d2e73ef8624470fc9ca852#file-folder-poetry-setup-md)安装。
+> MacOS 和 linix 系统皆可。Windows 系统本身不支持 Bash，需要安装 Windows Subsystem for Linux (WSL) 或者 Git bash, 建议提前跟着[这个教程](https://www.jianshu.com/p/a90591d5db0c) 安装。
 
 ## 介绍时间
 - Ghost in the SHELL
 - digital desire path 电子愿望小径
 
 ## command line 入门 + 玩文件夹
+- 下载 [garden](/garden/) 文件夹
 - `whoami` `uname`
 - `pwd`- (printing working directory) you are here! 
 - `ls` - list all the files and paths

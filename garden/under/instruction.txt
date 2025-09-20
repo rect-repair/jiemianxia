@@ -1,0 +1,18 @@
+⊹⊹⊹
+
+You notice an object called "spell.sh" sitting here, 
+but something tells you it won't work just yet.
+
+☾☾☾⊹⊹⊹
+
+INSTRUCTION:
+
+Input in order, separated by space
+[PERMISSION] [FLAG] [FILE]
+
+Then use: ./spell.sh
+
+                            ⊹⊹⊹☾☾☾
+
+Be patient, my child.
+Return when you're ready, and it will activate
