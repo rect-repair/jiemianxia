@@ -41,6 +41,7 @@
 > MacOS 和 linix 系统皆可。Windows 系统本身不支持 Bash，需要安装 Windows Subsystem for Linux (WSL) 或者 Git bash, 建议提前跟着[这个教程](https://www.jianshu.com/p/a90591d5db0c) 安装。
 
 ## 介绍时间
+- 今天的 [PPT](https://docs.google.com/presentation/d/15ykofj1di3EKSBYIYiHnXCR12RMOZXuOtrIarZstQlE/edit?usp=sharing) 在这里！(需要魔法不好意思)
 - Ghost in the SHELL
 - digital desire path 电子愿望小径
 
