@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.person {
+.person1 {
     position: absolute;
     font-family: monospace;
     font-size: 11px;
@@ -15,7 +15,7 @@
     line-height: 1;
 }
 
-.person1 {
+.person2 {
     animation: walk1 12s linear infinite;
     color: #1500ff;
 }
