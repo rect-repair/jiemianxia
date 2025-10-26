@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.rotating-text-container {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #b24b4b;
+  text-align: center;
+  transform-origin: center center;
+  animation: slide-in 20s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 0%;
+  }
+}
