@@ -1,0 +1,38 @@
+html,
+body {
+  overscroll-behavior: auto;
+}
+
+.title-poem-h1 {
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+
+}
+
+.title-poem-h2 {
+  font-weight: bold;
+  color: #01905e;
+  text-align: left;
+}
+
+.title-poem-h3 {
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  background: pink;
+  border-radius: 5px;
+}
+
+.title-poem-h4 {
+  padding-top: 30px;
+  color: #6cac4f;
+  text-align: left;
+}
+
+.title-poem-h5 {
+  padding-left: 100px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}

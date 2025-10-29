@@ -1,0 +1,45 @@
+html,
+body {
+  overscroll-behavior: auto;
+  background-color: blue;
+
+}
+
+.scrolling-text {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+  display: block;
+
+}
+
+.scrolling-texto {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  font-size: 10em;
+
+}
+
+.scrolling-text1 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  font-size: 80px;
+  justify-content: center;
+  display: inline-flex
+}
+
+.scrolling-text2 {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  font-size: 400px;
+  justify-content: center;
+  animation: alternate-reverse;
+
+}

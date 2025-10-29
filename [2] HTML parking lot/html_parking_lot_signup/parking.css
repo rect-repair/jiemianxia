@@ -1,0 +1,337 @@
+body {
+    font-family: Helvetica;
+    max-width: none;
+    margin: 40px;
+    font-size: small;
+}
+
+
+.green-gradient-bg {
+    background: linear-gradient(0deg,
+            #66A4FF 0%,
+            #B0D8FF 35%,
+            #90ABFF 100%)
+}
+
+
+.glowing-text {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+
+    /* 2. 关键：text-shadow 实现发光效果 */
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.8),
+        /* 强白光晕 (内发光) */
+        0 0 20px rgba(173, 216, 230, 0.6),
+        /* 蓝色中等光晕 */
+        0 0 30px rgba(173, 216, 230, 0.4),
+        /* 蓝色大光晕 */
+        0 0 40px rgba(173, 216, 230, 0.2),
+        /* 蓝色更大大光晕 */
+        -2px -2px 4px rgba(255, 255, 255, 0.1);
+    /* 少量白色阴影，模拟高光 */
+
+}
+
+.text-style {
+    color: #fff;
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.5),
+        /* 0 0 30px rgba(173, 216, 230, 0.4), */
+        /* 0 0 40px rgba(173, 216, 230, 0.2), */
+        -2px -2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.text-style2 {
+    color: #2110dd;
+    text-shadow:
+        0 0 10px rgba(16, 56, 189, 0.5),
+        /* 0 0 30px rgba(173, 216, 230, 0.4), */
+        /* 0 0 40px rgba(173, 216, 230, 0.2), */
+        -2px -2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+
+.column-fixed {
+    width: 200px;
+    /* flex-grow: 0; */
+    padding: 15px;
+    /* border: 2px dotted #ffffff; */
+
+}
+
+.column-flex {
+    flex: 1;
+    padding: 15px;
+    border-left: 2px dotted #ffffff;
+}
+
+
+/* 表单 */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    /* we control spacing per row */
+    padding: 0px;
+    border: 0px solid #ccc;
+    margin-bottom: 50px;
+}
+
+/* each label+input pair as a row */
+.form-row {
+    margin-bottom: 18px;
+    /* distance from this input to next label */
+}
+
+.form-row label {
+    display: flex;
+    margin-bottom: 4px;
+    /* label -> input gap (small) */
+}
+
+input {
+    font-size: small;
+    padding: 0px 8px;
+    margin: 0;
+    /* reset default */
+}
+
+/* 停车场 */
+.submitB {
+    padding: 10px;
+    background-color: hsl(49, 93%, 51%);
+    /* background-color:#ffaa00; */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    ;
+    border: none;
+    cursor: help;
+    border-radius: 5px;
+    align-self: flex-start;
+    box-shadow: 0 2px 4px rgba(194, 109, 40, 0.463);
+}
+
+#results-container .person {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+}
+
+.park {
+    position: relative;
+    /* Allow the container to grow with its content instead of forcing a fixed height */
+    height: auto;
+    min-height: 80px;
+    margin-top: 20px;
+    overflow: visible;
+    /* show all stacked .person items */
+}
+
+.car {
+    /* Make person a normal flow item so multiple entries stack vertically
+       instead of all being absolutely positioned on top of each other. */
+    position: relative;
+    display: block;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 20px;
+    /* spacing between cars */
+}
+
+.web {
+    all: unset;
+    border: none;
+    font-size: 12px;
+    /* box-shadow: #605c8f 0px 0px 1px 1px; */
+    /* box-shadow: #7e7d8c 0px 0px 0px 0px; */
+    border-radius: 2px;
+
+}
+
+.car1 {
+    animation: walk1 12s linear infinite;
+    color: #1500ff;
+}
+
+.web1 {
+    color: rgb(62, 42, 243);
+    background: hsl(0, 0%, 100%);
+
+}
+
+.car2 {
+    animation: walk1 20s linear infinite;
+    color: #ff4d06d6;
+}
+
+.web2 {
+    color: #ffffffd6;
+    background: #ffaa00;
+
+}
+
+.car3 {
+    animation: walk1 30s linear infinite;
+    color: #fbf30f;
+}
+
+.web3 {
+    color: #ffffffd6;
+    background: #fbf30f;
+}
+
+.car4 {
+    animation: walk1 40s linear infinite;
+    /* color: #ebc90c; */
+    color: #00ff04;
+}
+
+.web4 {
+    color: #00ff04;
+    /* background: #ebc90c; */
+    background: #ffffff;
+}
+
+.car5 {
+    animation: walk1 5s linear infinite;
+    color: #ee2892;
+}
+
+.web5 {
+    color: #ffffffd6;
+    background: #ff0062;
+}
+
+.car6 {
+    animation: walk1 60s linear infinite;
+    color: #ffffff;
+}
+
+.web6 {
+    color: #ffffffd6;
+    background: #5b68fb;
+}
+
+@keyframes walk1 {
+    0% {
+        left: -30px;
+        top: 10px;
+    }
+
+    25% {
+        left: 50%;
+        top: 10px;
+    }
+
+    50% {
+        left: 80%;
+        top: 40px;
+    }
+
+    75% {
+        left: 30%;
+        top: 40px;
+    }
+
+    100% {
+        left: -30px;
+        top: 10px;
+    }
+}
+
+/* 整体单元格 */
+.stack-container {
+    margin-top: 40px;
+    width: 100px;
+    /* 整体宽度 */
+    border-right: 3px solid rgb(255, 255, 255);
+    /* 右侧线 */
+    margin-left: 20px;
+    margin-right: 100px;
+    /* 留出空间给左侧的“刻度线” */
+    position: relative;
+    /* 关键：让子元素的伪元素可以定位 */
+}
+
+/* 每一个单元格的样式 */
+.stack-item {
+    padding: 20px 3px;
+    /* 单元格的内边距 (高度和宽度) */
+    text-align: center;
+    /* 文字居中 */
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    /* 每个单元格的下边框 */
+    position: relative;
+    /* 关键：为伪元素提供定位 */
+}
+
+
+
+/* 第一个单元格，需要特殊处理顶部边框 */
+.stack-item:first-child {
+    border-top: 3px solid rgb(255, 255, 255);
+}
+
+/* 左侧的“刻度线” (使用 ::after 绘制下方的刻度) */
+.stack-item::after {
+    content: '';
+    /* 伪元素必须有 content */
+    position: absolute;
+    left: -0px;
+    /* 刻度线的长度 (负值向左) */
+    bottom: -14px;
+    /* 对齐单元格的下边框 (负值向下) */
+    width: 3px;
+    /* 刻度线的长度 */
+    height: 24px;
+    /* 刻度线的粗细 (匹配边框) */
+    background-color: rgb(255, 255, 255);
+}
+
+/* 第一个单元格顶部的刻度线 */
+.stack-item:first-child::before {
+    content: '';
+    position: absolute;
+    left: -0px;
+    top: -3px;
+    /* 对齐单元格的上边框 */
+    width: 3px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* 最后一个单元底部 */
+.stack-item:last-child::after {
+    /* border-top: 3px solid black; */
+    content: '';
+    position: absolute;
+    left: -0px;
+    top: 44px;
+    width: 3px;
+    height: 15px;
+}

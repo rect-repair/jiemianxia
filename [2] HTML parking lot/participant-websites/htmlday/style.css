@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  font-family: sans-serif;
+  
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.rotating-text-container {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #b24b4b;
+  text-align: center;
+  transform-origin: center center;
+  animation: slide-in 20s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 0%;
+  }
+}
+
+.rotating-text-container1 {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #b24b4b;
+  text-align: center;
+  transform-origin: center center;
+  animation: slide-in1 10s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+@keyframes slide-in1 {
+  from {
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 0%;
+  }
+}
+
+.rotating-text-container2 {
+  margin-top: 30%;
+  font-weight: bold;
+  font-size: larger;
+  color: #b24b4b;
+  text-align: center;
+  transform-origin: center center;
+  animation: slide-in2 2s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+
+
+@keyframes slide-in2 {
+  from {
+    margin-left: 80%;
+    width: 80%;
+  }
+
+  to {
+    margin-left: 10%;
+    width: 10%;
+  }
+}

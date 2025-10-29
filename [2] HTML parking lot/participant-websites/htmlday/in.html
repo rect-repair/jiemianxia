@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            animation: rotate-color 3s ease-in-out infinite;
+            text-shadow: 0 0 10px currentColor;
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        @keyframes rotate-color {
+            0% {
+                color: #00ffff;
+                transform: rotate(-15deg) scale(1);
+                text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+            }
+            25% {
+                color: #ff00ff;
+                transform: rotate(15deg) scale(1.1);
+                text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+            }
+            50% {
+                color: #00ff00;
+                transform: rotate(-10deg) scale(1);
+                text-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;
+            }
+            75% {
+                color: #ffff00;
+                transform: rotate(10deg) scale(1.1);
+                text-shadow: 0 0 20px #ffff00, 0 0 40px #ffff00;
+            }
+            100% {
+                color: #00ffff;
+                transform: rotate(-15deg) scale(1);
+                text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>This is a basic HTML file.</p>
+</body>
+</html>

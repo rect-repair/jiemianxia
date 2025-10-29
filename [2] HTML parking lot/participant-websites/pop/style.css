@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.rotating-text-container {
+  margin-top: 30%;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: #7bff82;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin 15s linear infinite;
+  font-size: larger;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

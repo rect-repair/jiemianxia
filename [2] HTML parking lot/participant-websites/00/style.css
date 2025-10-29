@@ -1,0 +1,21 @@
+html,
+body {
+  overscroll-behavior: auto;
+}
+
+.txt-poem1 {
+  font-weight: bold;
+  color: #785eac;
+  text-align: center;
+  filter: blur(2px)
+
+}
+
+.txt-poem2 {
+  padding-top: 100px;
+  font-weight: bold;
+  color: #67b499;
+  text-align: center; 
+  transform: rotate(10deg)
+}
+

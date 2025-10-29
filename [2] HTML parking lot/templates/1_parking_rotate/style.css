@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  background-color: rgb(160, 184, 225);
+  
+}
+
+.rotating-text-container {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #b24b4b;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin 1s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(30deg);
+  }
+}
+
+.rotating-text-container1 {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #c8a94b;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin1 5s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+@keyframes spin1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-text-container2 {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #1ab84a;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin2 100s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+@keyframes spin2 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-text-container3 {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #338119;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin3 30s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+@keyframes spin3 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-text-container4 {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #6f4acd;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin4 5s linear infinite;
+  /* 鼠标悬停在linear infinite，点击MDN Reference查看更多效果 */
+}
+
+@keyframes spin4 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(36000deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.rotating-text-container5 {
+  margin-top: 30%;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  transform-origin: center center;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin5 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+  
+}
